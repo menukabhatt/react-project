@@ -1,7 +1,7 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home';
-// import About from './Pages/About';
+import About from './Pages/About';
 import Contact from './Pages/Contact';
 // import Page1 from './Pages/Subpages/Page1';
 // import Page2 from './Pages/Subpages/Page2';
@@ -22,10 +22,10 @@ const App = () => {
           path: 'detail/:id',
           element: <DetailPage />
         },
-        // {
-        //   path: 'about-page',
-        //   element: <About />
-        // },
+        {
+          path: 'about-page',
+          element: <About />
+        },
         {
           path: 'contact-page',
           element: <Contact />
