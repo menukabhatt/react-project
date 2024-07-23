@@ -3,9 +3,9 @@ import { useLocation, useParams } from 'react-router'
 import { getDataById } from '../../dummy/data';
 
 const DetailPage = () => {
-  const d= useLocation();
+  const d = useLocation();
 
-console.log(d)
+  console.log(d)
 
 
 

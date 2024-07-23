@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 // import Page2 from './Pages/Subpages/Page2';
 import RootLayout from './Components/RootLayout';
 import DetailPage from './Pages/Subpages/Detailpage';
+import Detail from './Pages/Detail';
 
 const App = () => {
   const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const App = () => {
         {
           path: 'contact-page',
           element: <Contact />
+        },
+        {
+          path: 'detail-page',
+          element: <Detail />
         }
 
       ]
